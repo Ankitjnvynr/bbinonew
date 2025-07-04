@@ -58,7 +58,7 @@ const About = () => {
             </div> */}
             <p className=' max-w-lg'>BigByte Innovation Pvt. Ltd. (BIPL) was founded in 2012 by two management graduates with extensive industry experience. They identified a gap in technologically advanced yet affordable products in African and CIS markets and aimed to bridge it by partnering with Indian manufacturers lacking export exposure. Over time, BIPL has diversified into multiple industries, including power plants, agro-tech, telecom, education, healthcare, and IT services. The company leverages its global network, in-house engineering team, and proactive approach to ensure quality, timely delivery, and successful project execution. It also provides manpower support for turnkey projects, ensuring operational efficiency and customer satisfaction.</p>
             <button className='text-white px-8 py-2 rounded my-7' style={{ backgroundColor: '#fc9908'}}>  
-            <a href='/Aboutus'>Learn More</a>
+            <a href='/'>Learn More</a>
             </button>
         </motion.div>
       </div>

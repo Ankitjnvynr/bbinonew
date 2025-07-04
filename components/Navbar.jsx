@@ -60,7 +60,7 @@ const Navbar = () => {
       <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-[rgba(233,233,233,0.8)] rounded-lg' >
         <Link href="/" className="cursor-pointer">
           
-          <Image
+          <img
             src="/bigbyte-logo.png"
             alt="Logo"
             width={160}

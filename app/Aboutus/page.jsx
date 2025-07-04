@@ -5,7 +5,7 @@ import WhyChooseUs from "../../components/Aboutus/WhyChooseUs";
 import AboutVision from "../../components/Aboutus/AboutVision";
 import BigByteAdvantages from "../../components/Aboutus/BigByteAdvantages";
 
-const AboutusPage = () => {
+const page = () => {
   return (
     <div>
       <AboutIntro />
@@ -16,4 +16,4 @@ const AboutusPage = () => {
   );
 };
 
-export default AboutusPage;
+export default page;
