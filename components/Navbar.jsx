@@ -57,11 +57,11 @@ const Navbar = () => {
 
   return (
     <div className='absolute top-5 left-0 w-full z-10'>
-      <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent'>
+      <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-[rgba(233,233,233,0.7)]'>
         <Link href="/" className="cursor-pointer">
           
           <Image
-            src="/assets/bb_logo.png"
+            src="/assets/logo.png"
             alt="Logo"
             width={160}
             height={40}
@@ -71,10 +71,10 @@ const Navbar = () => {
           
         </Link>
         
-        <ul className='hidden md:flex gap-7 text-white'>
+        <ul className='hidden md:flex gap-7 '>
           <button
             onClick={() => handleSectionNavigation('Header')}
-            className='cursor-pointer bg-transparent border-none text-white'
+            className='cursor-pointer bg-transparent border-none txt-black'
             style={{
               transition: 'color 0.3s',
             }}
@@ -85,7 +85,7 @@ const Navbar = () => {
           </button>
           <button
             onClick={() => handleSectionNavigation('About')}
-            className='cursor-pointer bg-transparent border-none text-white'
+            className='cursor-pointer bg-transparent border-none '
             style={{
               transition: 'color 0.3s',
             }}
@@ -97,7 +97,7 @@ const Navbar = () => {
           
           <button
             onClick={() => handleSectionNavigation('Sectors1')}
-            className='cursor-pointer bg-transparent border-none text-white flex items-center'
+            className='cursor-pointer bg-transparent border-none  flex items-center'
             style={{
               transition: 'color 0.3s',
             }}
@@ -109,7 +109,7 @@ const Navbar = () => {
 
           <button
             onClick={() => handleSectionNavigation('Contact')}
-            className='cursor-pointer bg-transparent border-none text-white'
+            className='cursor-pointer bg-transparent border-none '
             style={{
               transition: 'color 0.3s',
             }}
