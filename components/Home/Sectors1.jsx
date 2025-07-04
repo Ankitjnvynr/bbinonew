@@ -22,7 +22,7 @@ export default function Sectors() {
     { title: "Agro Technologies", icon: <FaSeedling />, description: "Manufacturing agro processing plants like solvent extraction, cattle feed & food processing." },
     { title: "Telecom", icon: <FaSatelliteDish />, description: "A telecom VAS provider with a presence in 50+ countries, covering 100+ operators." },
     { title: "Tourism", icon: <FaPlane />, description: "Partnering with governments for tourism industry projects across Asia." },
-    { title: "Education", icon: <FaGraduationCap />, description: "Providing educational syllabus, affiliations, and manpower for institutions." },
+    { title: "Education", icon: <FaGraduationCap />, description: "Provide education , affiliations, and manpower for institutions." },
     { title: "Health Care", icon: <FaHospital />, description: "Manufacturing allopathic & ayurvedic medicines, private labels & custom formulations." },
     { title: "IT & Digital Marketing", icon: <FaLaptopCode />, description: "Offering software, IT services, and web technologies for businesses." },
     // { title: "HVAC Industry", icon: <FaSnowflake />, description: "India's biggest HVAC filters & pre-insulated duct manufacturer." },

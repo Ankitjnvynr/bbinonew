@@ -30,7 +30,7 @@ const About = () => {
         transition={{duration: 1}}
         whileInView={{opacity: 1, x:0}}
         viewport={{once: true}}
-        src={'/assets/about.png'} alt="" className='w-full sm:w-1/2 max-w-lg rounded-lg shadow-lg'/>
+        src={'/assets/photo-1535957998253-26ae1ef29506.jpeg'} alt="" className='w-full sm:w-1/2 max-w-lg rounded-lg shadow-lg'/>
 
         <motion.div
         initial={{opacity: 0, x:200}}
