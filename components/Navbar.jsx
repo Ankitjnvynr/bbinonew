@@ -57,11 +57,11 @@ const Navbar = () => {
 
   return (
     <div className='absolute top-5 left-0 w-full z-10'>
-      <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-[rgba(233,233,233,0.7)]'>
+      <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-[rgba(233,233,233,0.8)] rounded-lg' >
         <Link href="/" className="cursor-pointer">
           
           <Image
-            src="/assets/logo.png"
+            src="/bigbyte-logo.png"
             alt="Logo"
             width={160}
             height={40}
